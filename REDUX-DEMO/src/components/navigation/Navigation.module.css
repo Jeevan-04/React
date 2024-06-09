@@ -1,0 +1,28 @@
+.header
+{
+    background-color: cornflowerblue;
+    padding:20px 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo
+{
+    color: white;
+}
+.nav
+{
+    width:30%;
+    height: 30px;
+}
+
+.navlinks
+{
+    width:100%;
+    display:flex;
+    color:white;
+    justify-content: space-between;
+}
+
+ul{
+    list-style-type: none;
+}

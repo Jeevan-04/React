@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        // console.log("line 1")
+        // console.log("line 2")
+        // for(let i=0;i<20000;i++)
+        // {
+        //     console.log("line 3")
+        // }
+        // console.log("line 4")
+        // console.log("line 5")
+
+        // doSomething=()=>console.log("done")
+        // doSomething=()=>3  //this is return 3
+
+        // doSomething()
+
+
+        // function doSomething(param)
+        // {
+        //     console.log("this is doSomething")
+        //     // param()
+        //     param(1)
+        // }
+
+        // // doSomething(function(){console.log("hello")})
+        // doSomething(function(a){console.log("hello"+a)})
+
+
+        // let arr = [23,25,31,43]
+
+        // // arr.forEach(function(e){
+        // //     console.log(e)
+        // // })
+
+        // arr.forEach((ele,index,a)=>console)
+
+
+        // let avengers=["Thor","Iron man","Hulk","Wanda"]
+
+        // for(let i=0;i<=3;i++)
+        // {
+        //     console.log(avengers[i])
+        // }
+
+        // avengers.forEach((v,i,a)=>{console.log(v)})
+
+        // let as = avengers.map((v,i,a)=>{
+        //     //console.log(v)
+        //     return v+"s"
+        // })
+
+        // console.log(as)
+
+        let avengers=[
+            {name:"Thor", age:1500},
+            {name:"Iron man", age:34},
+            {name:"Hulk", age:34},
+            {name:"Wanda", age:20}
+        ]
+
+        // let names=avengers.map((a,index,arr)=>{
+        //     if(a.age===34)
+        //     {
+        //         return a.name
+        //     }
+        // })
+
+        // console.log(names)
+
+
+        let as = avengers.filter((v,i,a)=>{
+            return v.age===34
+        })
+
+        console.log(as)
+
+    </script>
+</body>
+</html>

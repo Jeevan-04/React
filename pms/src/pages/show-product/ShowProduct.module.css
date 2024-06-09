@@ -1,0 +1,30 @@
+.card_section {
+    max-width: 400px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.section_img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.details h1 {
+    font-size: 1.25rem;
+    margin: 0.5rem 0;
+}
+
+.details {
+    margin-top: 1rem;
+}
